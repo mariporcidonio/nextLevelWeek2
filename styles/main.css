@@ -33,6 +33,9 @@ body {
   height: 100vh; /*Altura total da página*/
 }
 
+/*Estilização*/
+
+
 body {
     background: var(--color-background);
     display: flex;
