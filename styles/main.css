@@ -56,4 +56,8 @@ textarea {
     max-width: 700px;
 }
 
-/*Final aula 1*/
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%; /*Todo 1rem vai ser relativo a 10px*/
+  }
+}
