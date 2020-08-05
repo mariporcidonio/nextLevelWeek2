@@ -6,7 +6,10 @@
     <title>Proffy | Sua plataforma de estudos online</title>
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/styles/partials/page-study.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body id="page-study">
     <div id="container">
@@ -17,51 +20,114 @@
           </a>
           <img src="/images/logo.svg" alt="Proffy" />
         </div>
+
+        <div class="header-content">
+          <strong>Esses são os proffys disponíveis</strong>
+          <form id="search-teachers">
+            <div class="select-block">
+              <label for="subject">Matéria</label>
+              <select name="subject" id="subject">
+                <option value="" disabled="" hidden=""
+                  >Selecione uma opção</option
+                >
+                <option value="1">Artes</option>
+                <option value="2">Biologia</option>
+                <option value="3">Ciências</option>
+                <option value="4">Educação Física</option>
+                <option value="5">Física</option>
+                <option value="6">Geografia</option>
+                <option value="7">História</option>
+                <option value="8">Matemática</option>
+                <option value="9">Português</option>
+                <option value="10">Química</option>
+              </select>
+            </div>
+            <div class="select-block">
+              <label for="weekday">Dia da semana</label>
+              <select name="weekday" id="weekday">
+                <option value="" disabled="" hidden=""
+                  >Selecione uma opção</option
+                >
+                <option value="0">Domingo</option>
+                <option value="1">Segunda-feira</option>
+                <option value="2">Terça-feira</option>
+                <option value="3">Quarta-feira</option>
+                <option value="4">Quinta-feira</option>
+                <option value="5">Sexta-feira</option>
+                <option value="6">Sábado</option>
+              </select>
+            </div>
+            <div class="input-block">
+              <label for="time">Hora</label>
+              <input name="time" id="time" type="time" />
+            </div>
+            <button type="submit">Filtrar</button>
+          </form>
+        </div>
       </header>
 
-      <div class="class-content">
-        <strong>Esses são os proffys disponíveis</strong>
-        <form id="search-teachers">
-          <div class="select-block">
-            <label for="subject">Matéria</label>
-            <select name="subject" id="subject">
-              <option value="" disabled="" hidden=""
-                >Selecione uma opção</option
-              >
-              <option value="1">Artes</option>
-              <option value="2">Biologia</option>
-              <option value="3">Ciências</option>
-              <option value="4">Educação Física</option>
-              <option value="5">Física</option>
-              <option value="6">Geografia</option>
-              <option value="7">História</option>
-              <option value="8">Matemática</option>
-              <option value="9">Português</option>
-              <option value="10">Química</option>
-            </select>
-          </div>
-          <div class="select-block">
-            <label for="weekday">Dia da semana</label>
-            <select name="weekday" id="weekday">
-              <option value="" disabled="" hidden=""
-                >Selecione uma opção</option
-              >
-              <option value="0">Domingo</option>
-              <option value="1">Segunda-feira</option>
-              <option value="2">Terça-feira</option>
-              <option value="3">Quarta-feira</option>
-              <option value="4">Quinta-feira</option>
-              <option value="5">Sexta-feira</option>
-              <option value="6">Sábado</option>
-            </select>
-          </div>
-          <div class="input-box">
-            <label for="time">Hora</label>
-            <input name="time" id="time" type="time" />
-          </div>
-          <button type="submit">Filtrar</button>
-        </form>
-      </div>
+      <main>
+        <article class="teacher-item">
+          <header>
+            <img
+              src="https://avatars3.githubusercontent.com/u/50220984?s=460&u=08952d35786715eccdf7a85079281364b7e4f41a&v=4"
+              alt="Marielle Porcidonio"
+            />
+            <div>
+              <strong>Marielle Porcidonio</strong>
+              <span>Química</span>
+            </div>
+          </header>
+
+          <p>
+            Entusiasta das melhores tecnologias de química avançada.<br /><br />Apaixonada
+            por explodir coisas em laboratório e por mudar a vida das pessoas
+            através de experiências. Mais de 200.000 pessoas já passaram por uma
+            das minhas explosões.
+          </p>
+
+          <footer>
+            <p>
+              Preço/hora
+              <strong>R$ 20,00</strong>
+            </p>
+            <button type="button">
+              <img src="/images/icons/whatsapp.svg" alt="Whatsapp" />Entrar em
+              contato
+            </button>
+          </footer>
+        </article>
+        <article class="teacher-item">
+          <header>
+            <img
+              src="https://avatars2.githubusercontent.com/u/49199011?s=460&u=e25ed31b9303279e10b98bc842041f4630ef11a8&v=4"
+              alt="Diego Kock"
+            />
+            <div>
+              <strong>Diego Kock</strong>
+              <span>Química</span>
+            </div>
+          </header>
+
+          <p>
+            Entusiasta das melhores tecnologias de química avançada.<br /><br />Apaixonado
+            por explodir coisas em laboratório e por mudar a vida das pessoas
+            através de experiências. Mais de 200.000 pessoas já passaram por uma
+            das minhas explosões.
+          </p>
+
+          <footer>
+            <p>
+              Preço/hora
+              <strong>R$ 20,00</strong>
+            </p>
+            <button type="button">
+              <img src="/images/icons/whatsapp.svg" alt="Whatsapp" />Entrar em
+              contato
+            </button>
+          </footer>
+        </article>
+      </main>
     </div>
   </body>
 </html>
