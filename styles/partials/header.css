@@ -2,6 +2,7 @@
     background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
+    max-width: 74rem;
 }
 .page-header .top-bar-container {
     width: 90%;
