@@ -18,8 +18,7 @@
   --color-box-base: #ffffff;
   --color-box-footer: #fafafc;
   --color-small-info: #c1bccc;
-  /*Tamanho da fonte padrão: 16px - 100% - 1rem*/
-  font-size: 100%; /* controle das medidas rem */
+  font-size: 100%;
 }
 
 * {
@@ -30,7 +29,7 @@
 
 html,
 body {
-  height: 100vh; /*Altura total da página*/
+  height: 100vh; 
 }
 
 body {
@@ -44,7 +43,6 @@ body,
 input,
 button,
 textarea {
-    /*Font: 500 1.6rem Poppins;*/
     font-weight: 500;
     font-family: Poppins;
     font-size: 1.6rem;
@@ -58,6 +56,6 @@ textarea {
 
 @media (min-width: 700px) {
   :root {
-    font-size: 62.5%; /*Todo 1rem vai ser relativo a 10px*/
+    font-size: 62.5%; 
   }
 }
