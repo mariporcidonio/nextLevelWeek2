@@ -102,19 +102,18 @@
     margin-top: 2.4rem;
 }
 
+
 .teacher-item header {
     padding: 3.2rem 2rem;
     display: flex;
     align-items: center;
 }
-
 .teacher-item header img {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
 }
 
-/*
 .teacher-item header div {
     margin-left: 2.4rem;
 }
@@ -131,12 +130,13 @@
     margin-top:.4rem;
 }
 
-.teacher-item > p {
+.teacher-item p {
     padding: 0 2rem;
     font-size: 1.6rem;
     line-height: 2.8rem;
 }
 
+/*
 .teacher-item  footer {
     padding: 3.2rem 2rem;
     background-color: var(--color-box-footer);
@@ -146,6 +146,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 
 .teacher-item footer p {
     font-size: 1.4rem;
