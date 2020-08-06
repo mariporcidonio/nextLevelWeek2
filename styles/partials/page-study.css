@@ -2,39 +2,6 @@
     width: 100vw;
     height: 100vh;
 }
-.page-header {
-    background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
-}
-.page-header .top-bar-container {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 1.6rem 0;
-}
-.page-header .top-bar-container a {
-    height: 3.2rem;
-    transition: opacity 0.2s;
-}
-.page-header .top-bar-container a:hover {
-    opacity: 0.6;
-}
-.page-header .top-bar-container img {
-    height: 1.6rem;
-}
-.page-header .header-content {
-    width: 90%;
-    margin: 3.2rem auto;
-    position: relative;
-}
-.page-header .header-content strong {
-    font: 700 3.6rem Archivo;
-    line-height: 4.2rem;
-    color: var(--color-title-in-primary);
-}
 #search-teachers {
     margin-top: 3.2rem;
 }
@@ -101,8 +68,6 @@
     border-radius: .8rem;
     margin-top: 2.4rem;
 }
-
-
 .teacher-item header {
     padding: 3.2rem 2rem;
     display: flex;
@@ -113,17 +78,14 @@
     height: 8rem;
     border-radius: 50%;
 }
-
 .teacher-item header div {
     margin-left: 2.4rem;
 }
-
 .teacher-item header div strong {
     font: 700 2.4rem Archivo;
     display: block;
     color: var(--color-text-title);
 }
-
 .teacher-item header div span {
     font-size: 1.6rem;
     display: block;
@@ -153,8 +115,6 @@
     color: var(--color-primary);
     display: block;
 }
-
-
 .teacher-item footer button {
     width: 20rem;
     height: 5.6rem;
@@ -163,7 +123,7 @@
     border: 0;
     border-radius: .8rem;
     cursor: pointer;
-    font: 700 1.4rem Archivo;
+    font: 700 1.2rem Archivo;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -171,7 +131,6 @@
     transition: background 0.2s;
     margin-left: 1.6rem;
 }
-
 .teacher-item footer button:hover {
     background: var(--color-secondary-dark);
 }
