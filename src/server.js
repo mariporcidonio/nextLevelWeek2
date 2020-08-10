@@ -1,8 +1,13 @@
-require('express')()
-.get("/", (req, res) => {
-    return res.send("Hi from NLW")
-})
-.get("/study", (req, res) => {
-    return res.send("study")
-})
-.listen(5000)
+const express = require('express')
+const server = express()
+server.use(express.static("public"))
+    .get("/", (req, res) => {
+        return res.sendFile(__dirname + "/views/index.html")
+    })
+    .get("/study", (req, res) => {
+        return res.sendFile(__dirname + "/views/study.html")
+    })
+    .get("/give-classes", (req, res) => {
+        return res.sendFile(__dirname + "/views/give-classes.html")
+    })
+    .listen(5000)
