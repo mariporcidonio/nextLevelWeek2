@@ -38,8 +38,9 @@ Design criado por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg
 
 # 📥 Dependências
 
-1 - npm install express
-2 - npm install nunjucks
+1 - npm install express;
+
+2 - npm install nunjucks;
 
 
 # 📕 Licença
