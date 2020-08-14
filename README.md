@@ -1,17 +1,17 @@
 # Proffy - sua plataforma de estudos online
 
- ![](images/web1.png)
+ images/web1.png
 
 # Descrição
 
 Uma plataforma de estudos online, onde os professores podem se cadastrar para dar aulas e os alunos podem pesquisar por disciplina e data os professores disponíveis e entrar em contato através do Whatsapp.
 Desenvolvido durante a Next Level Week, um projeto da Rocketseat.
 
-![](images/mobile1.png)
-![](images/mobile2.png)
-![](images/mobile3.png)
-![](images/mobile4.png)
-![](images/mobile5.png)
+images/mobile1.png
+images/mobile2.png
+images/mobile3.png
+images/mobile4.png
+images/mobile5.png
 
 # Tecnologias Utilizadas
 
