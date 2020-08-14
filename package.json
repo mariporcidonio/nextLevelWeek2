@@ -1,8 +1,8 @@
 {
   "name": "NLW2",
   "version": "1.0.0",
-  "description": "Project created during Next Level Week 2, Rocketseat event  (Discovery).",
-  "main": "index.js",
+  "description": "",
+  "main": "",
   "scripts": {
     "dev": "nodemon src/server.js"
   },

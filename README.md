@@ -1,13 +1,17 @@
-# Projeto: Proffy
+# Proffy - sua plataforma de estudos online
 
- ![](gifs/darktheme.gif)
+ ![](images/web1.png)
 
 # Descrição
 
-Proffy é uma plataforma de ensino online, focada para quem quer estudar com professores particulares ou para que educadores se cadastrarem para dar aulas. Projeto feito na semana NLW#2, da empresa rocketseat.
+Uma plataforma de estudos online, onde os professores podem se cadastrar para dar aulas e os alunos podem pesquisar por disciplina e data os professores disponíveis e entrar em contato através do Whatsapp.
+Desenvolvido durante a Next Level Week, um projeto da Rocketseat.
 
- ![](gifs/proffy.gif)
-
+![](images/mobile1.png)
+![](images/mobile2.png)
+![](images/mobile3.png)
+![](images/mobile4.png)
+![](images/mobile5.png)
 
 # Tecnologias Utilizadas
 
@@ -22,31 +26,13 @@ Back-end
 1. Node.js
 2. Sqlite
 
-# Executando o projeto
-
-1 - npm init
-
-2 - npm install para baixar todas as dependências.
-
-3 - npm install express.
-
-4 - npm run dev para fazer o servidor funcionar.
-
-5 - servidor na porta: localhost:5500
-
-
 # Dependências
 
 1 - npm install express
 
 2 - npm install nunjucks
 
-# Novas funcionalidades
-
-1 - Dark mode
-
-2 - Limite de novos horários
 
 # Licença
 
-:book: Licença MIT. Veja o arquivo LICENSE.
+:book: Licença MIT.
