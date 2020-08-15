@@ -1,7 +1,7 @@
 ## Proffy - sua plataforma de estudos online
 
 <p align="center">
-  <img src="images/web1.PNG">
+  <img src="https://github.com/mariporcidonio/nextLevelWeek2/blob/master/images/web1.PNG">
   <br><br>
 </p>
 
@@ -36,13 +36,13 @@ Design criado por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg
   </tr>
 </table>
 
-# 📥 Dependências
+## 📥 Dependências
 
 1 - npm install express;
 
 2 - npm install nunjucks;
 
 
-# 📕 Licença
+## 📕 Licença
 
 <a href="https://github.com/dxwebster/NLW2-Proffy/blob/master/LICENSE">MIT.</a>
