@@ -45,4 +45,4 @@ Design criado por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg
 
 # 📕 Licença
 
-:book: <a href="https://github.com/dxwebster/NLW2-Proffy/blob/master/LICENSE">MIT.</a>
+<a href="https://github.com/dxwebster/NLW2-Proffy/blob/master/LICENSE">MIT.</a>
