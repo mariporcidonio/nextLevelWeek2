@@ -1,7 +1,7 @@
 ## Proffy - sua plataforma de estudos online
 
 <p align="center">
-  <img src="https://github.com/mariporcidonio/nextLevelWeek2/blob/master/images/web1.PNG">
+  <img src="images/web1.PNG">
   <br><br>
 </p>
 
